@@ -3,7 +3,7 @@
 }
 
 html {
-  background: url("../images/slides-background.jpg") no-repeat fixed center;
+  background: url("../media/hot-air-balloons.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -14,12 +14,12 @@ body {
 h1 {
   font-family: "Lora", serif;
   font-size: 50px;
-  color: midnightblue;
+  color: deepskyblue;
   margin: 50px;
 }
 
 .images-width {
-  max-height: 200px;
+  max-height: 250px;
   margin: 10px;
-  border: 5px solid pink;
+  border: 2px solid deepskyblue;
 }

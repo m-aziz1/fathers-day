@@ -1,18 +1,20 @@
-//Mother's Day Slideshow
+// FATHER'S DAY
+
+// Home Page
 const nameInputEl = document.getElementById("name-input");
-const imagesDiv = document.getElementById("images-container");
 
 function enter() {
   let inputVal = nameInputEl.value.toLowerCase();
   switch (inputVal) {
-    case "samina":
-    case "saminayasmin":
-    case "samina yasmin":
-    case "mom":
-    case "your mom":
-    case "ihsan mom":
-    case "ihsan's mom":
-      location.href = "./pages/happy-mothers-day.html";
+    case "tariq":
+    case "tariq ":
+    case "tariqaziz":
+    case "tariq aziz":
+    case "father":
+    case "your father":
+    case "ihsan father":
+    case "ihsan's father":
+      location.href = "./pages/happy-fathers-day.html";
       break;
     default:
       incorrect();
@@ -26,11 +28,15 @@ function incorrect() {
   }, 600);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  for (let i = 1; i <= 13; i++) {
+// Slide Show
+function loadPage() {
+  const imagesDiv = document.getElementById("images-container");
+  for (let i = 1; i <= 8; i++) {
     const imageEl = document.createElement("img");
-    imageEl.src = `../images/pic-${i}.jpg`;
+    imageEl.src = `../media/pic-${i}.jpeg`;
     imageEl.classList.add("images-width");
     imagesDiv.appendChild(imageEl);
   }
-});
+
+  document.getElementById("ko-ko-korina").play();
+}
