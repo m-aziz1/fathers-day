@@ -38,5 +38,6 @@ function loadPage() {
     imagesDiv.appendChild(imageEl);
   }
 
-  document.getElementById("ko-ko-korina").play();
+  let audio = new Audio("https://m-aziz1.github.io/fathers-day/media/Ko-Ko-Korina-Ahmed-Rushdi.mp3");
+  audio.play();
 }
