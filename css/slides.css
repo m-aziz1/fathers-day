@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+html {
+  background: url("../images/slides-background.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-size: 50px;
+  color: midnightblue;
+  margin: 50px;
+}
+
+.images-width {
+  max-height: 200px;
+  margin: 10px;
+  border: 5px solid pink;
+}
