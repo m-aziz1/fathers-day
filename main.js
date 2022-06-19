@@ -40,4 +40,5 @@ function loadPage() {
 
   let audio = new Audio("https://m-aziz1.github.io/fathers-day/media/Ko-Ko-Korina-Ahmed-Rushdi.mp3");
   audio.autoplay = true;
+  audio.play();
 }
