@@ -9,7 +9,9 @@ function enter() {
     case "tariq":
     case "tariq ":
     case "tariqaziz":
+    case "tariqaziz ":
     case "tariq aziz":
+    case "tariq aziz ":
     case "father":
     case "your father":
     case "ihsan father":
@@ -38,7 +40,9 @@ function loadPage() {
     imagesDiv.appendChild(imageEl);
   }
 
-  let audio = new Audio("https://m-aziz1.github.io/fathers-day/media/Ko-Ko-Korina-Ahmed-Rushdi.mp3");
+  let audio = new Audio(
+    "https://m-aziz1.github.io/fathers-day/media/Ko-Ko-Korina-Ahmed-Rushdi.mp3"
+  );
   audio.autoplay = true;
   audio.play();
 }
