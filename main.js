@@ -31,7 +31,7 @@ function incorrect() {
 // Slide Show
 function loadPage() {
   const imagesDiv = document.getElementById("images-container");
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= 9; i++) {
     const imageEl = document.createElement("img");
     imageEl.src = `../media/pic-${i}.jpeg`;
     imageEl.classList.add("images-width");
